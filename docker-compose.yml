@@ -1,0 +1,15 @@
+versión : " 3.9 "
+servicios :
+  trabajador :
+    construir : .
+    medio ambiente :
+      REDIS_URI : $REDIS_URI
+      REDIS_PASSWORD : $REDIS_PASSWORD
+      SESIÓN : $SESIÓN
+      API_ID : $API_ID   # predeterminado en Ninguno
+      API_HASH : $API_HASH   # por defecto es Ninguno
+      MONGO_URI : $MONGO_URI   # predeterminado en Ninguno
+      BOT_TOKEN : $BOT_TOKEN # No obligatorio
+      LOG_CHANNEL : $LOG_CHANNEL # No obligatorio
+      DATABASE_URL : $DATABASE_URL   # predeterminado en Ninguno
+      OKTETO_TOKEN : $OKTETO_TOKEN
