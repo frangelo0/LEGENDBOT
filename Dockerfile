@@ -14,7 +14,7 @@ COPY installer.sh .
 RUN bash installer.sh
 
 # changing workdir
-WORKDIR "/root/frangelo0"
+WORKDIR "/root/LEGENDBOT"
 
 # start the bot.
 CMD ["bash", "startup"]
