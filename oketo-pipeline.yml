@@ -1,0 +1,3 @@
+icono : https://raw.githubusercontent.com/TeamUltroid/Ultroid/main/resources/extras/logo_readme.jpg
+desplegar :
+    - ok para implementar --build -f docker-compose.yml
